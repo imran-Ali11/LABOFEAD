@@ -1,0 +1,33 @@
+<%- include('header') -%>
+
+<div class="text-center center" style="margin-top: 40px;"><h2>REGISTERATION</h2></div>
+<p></p>
+e
+ 
+<div class="container text-center">
+    <form action="/add" method="post" enctype="multipart/form-data">
+        
+        <div class="mb-3 ">
+            <input type="file" name="image"/>
+        </div>
+        <div class="mb-3 ">
+            <input class="form-control" type="text" name="name" id="email1" placeholder="Name"/>
+        </div>
+        <div class="mb-3 ">
+            <input class="form-control" type="email" name="email" id="email1" placeholder="Email"/>
+        </div>
+        <div class="mb-3">
+          
+            <input class="form-control" type="password" name="password" id="password1" placeholder="Password"/>
+        </div>
+        <div class="mb-3">
+            <input class="form-control" type="password" name="password1" id="password2" placeholder="Confirm Password"/>
+        </div>
+        <div class="mb-3">
+            <button class="btn btn-primary" type="submit">SIGNUP</button>
+
+        </div>
+    </form>
+</div>
+
+<%- include('footer') -%>
