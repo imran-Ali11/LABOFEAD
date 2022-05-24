@@ -1,3 +1,4 @@
+
 <%- include('header') -%>
 
 <div class="container text-center ">
@@ -25,7 +26,7 @@
                 <td><%= row.name %></td>
                 <td><img src="<%= row.image %>" width="100px"  class="img-thumbnail" /></td>
                 <td><%= row.email %></td>
-                <td id="<%= row._id %>"><a href="search/<%= row._id %>" type="button" class="btn btn-primary"/>View</a></td>
+                <td id="<%= row._id %>"><a href="search/<%= row._id %>" type="button" class="btn btn-p"/>View</a></td>
                 <td id= "<%= row._id %>"><a href="delete/<%= row._id %>" type="button" class="btn btn-primary"/>Delete</a></td>
                 <td id= "<%= row._id %>"><a href="edit/<%= row._id %>" type="button" class="btn btn-primary"/>Edit</a></td>
               
